@@ -1,0 +1,7 @@
+version: "3.6"
+
+services:
+  app:
+    image: docker-go-recipe-api:latest
+    ports:
+      - 8000:8000
